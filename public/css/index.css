@@ -1,1 +1,92 @@
+div.lesson-four-task-one button.btn:hover {
+    color: red;
+    background-color: yellow;
+}
 
+  
+/* завдання 2 */
+a:hover ~h1 {
+    background: green;
+}
+
+/* завдання 3 */
+div.lesson-four-task-three a:visited {
+    color: yellow;
+}
+/* завдання 4 */
+div#sidebar a:link {
+    color: red;
+}
+/* завдання 5 */
+div.lesson-four-task-five button.btn:active {
+    background-color: blue;
+}
+/* завдання 6 */
+div.lesson-four-task-six button.btn:focus {
+    color: orange;
+    background-color: orange;
+}
+/* завдання 7 */
+div.lesson-four-task-seven div#target:target {
+    color: white;
+    background-color: green;
+}
+/* завдання 8 */
+div.lesson-four-task-eight input[type="checkbox"]:checked ~ div#target {
+    color: white;
+    background: blue;
+}
+/* завдання 9 */
+div.lesson-four-task-nine p:lang(uk) {
+    color: blue;
+}
+/* завдання 10 */
+div.lesson-four-task-ten input:enabled {
+    color: red;
+    background-color: yellow;
+}
+/* завдання 11 */
+div.lesson-four-task-eleven input:disabled {
+        background-color: yellow;
+}
+/* завдання 12 */
+div.lesson-four-task-twelve input:read-write {
+        background-color: yellow;
+}
+/* завдання 13 */
+div.lesson-four-task-thirteen input:read-only {
+    background-color: yellow;
+}
+/* завдання 14 */
+div.lesson-four-task-fourteen input:valid {
+    background-color: green;
+}
+
+div.lesson-four-task-fourteen input:invalid {
+    background-color: red;
+}
+/* завдання 15 */
+div.lesson-four-task-fifteen textarea:optional {
+    background: red;
+}
+/* завдання 16 */
+div.lesson-four-task-sixteen input:out-of-range {
+    color: red;
+}
+/* завдання 17 */
+div.lesson-four-task-seventeen input:in-range {
+    color: red;
+}
+/* завдання 18 */
+div.lesson-four-task-eighteen input:placeholder-shown {
+    background: red;
+}
+/* завдання 19 */
+div.lesson-four-task-nineteen button:focus-within {
+    color: white;
+    background: yellow;
+}
+/* завдання 20 */
+div.lesson-four-task-twenty input:invalid {
+    background: red;
+}
